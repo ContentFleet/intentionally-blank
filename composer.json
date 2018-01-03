@@ -1,0 +1,19 @@
+{
+  "name": "cf-cms-themes/intentionally-blank",
+  "authors": [
+    {
+      "name": "Ivan Pallares",
+      "email": "ipallares@contentfleet.com"
+    }
+  ],
+  "version": "0.1",
+  "autoload": {
+    "psr-4": {
+      "CFIntentionallyBlank\\Themes\\": ""
+    }
+  },
+  "type": "wordpress-theme",
+  "require": {
+    "composer/installers": "v1.0.6"
+  }
+}
