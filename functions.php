@@ -4,6 +4,7 @@ if ( ! function_exists( 'blank_setup' ) ) :
 		load_theme_textdomain( 'intentionally-blank' );
 		add_theme_support( 'automatic-feed-links' );
 		add_theme_support( 'title-tag' );
+        add_theme_support( 'html5', array( 'gallery', 'caption' ) );
 
 		// This theme allows users to set a custom background.
 		add_theme_support( 'custom-background', apply_filters( 'intentionally_blank_custom_background_args', array(
